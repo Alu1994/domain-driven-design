@@ -11,9 +11,11 @@ Domain Driven Design é um conjunto de principios e padrões que nos ajudam a re
 - Ao implementar Sub-Dominios é importante ter em mente _separation of concerns_ que é você dividir as responsabilidades de forma bem clara, um sub-dominio deve se preocupar somente com aquilo que faz sentido à ele, que são as regras do negócio. Interações com infraestrutura, bases de dados e outros, devem ser tratados separadamente.
 
 ## :) Prós e :( Contras do DDD
-
+### Prós
 - DDD nos ajuda a dividir um super problema em problemas menores(**Sub-Domain**) que facilita o entendimento bem como o seu processo de desenvolvimento, o que o torna também mais flexivel.
 - Torna a solução final mais próxima da visão de negócios do cliente. Entregando um caminho para problemas **complexos**.
 - Normalmente o código é bem organizado e facilmente testavel.
 - A regra de negócio fica somente em um único lugar.
 - Mesmo não utilizando totalmente DDD, existem alguns padrões que podem beneficiar o desenvolvimento das nossas aplicações.
+
+### Contras
