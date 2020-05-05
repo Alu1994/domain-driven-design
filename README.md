@@ -16,3 +16,4 @@ Domain Driven Design é um conjunto de principios e padrões que nos ajudam a re
 - Torna a solução final mais próxima da visão de negócios do cliente. Entregando um caminho para problemas complexos.
 - Normalmente o código é bem organizado e facilmente testavel.
 - A regra de negócio fica somente em um único lugar.
+- Existem alguns padrões que podem beneficiar o desenvolvimento das nossas aplicações.
