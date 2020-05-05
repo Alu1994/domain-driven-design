@@ -22,3 +22,4 @@ Domain Driven Design é um conjunto de principios e padrões que nos ajudam a re
 - Um dos pontos negativos do DDD é o **Tempo e Esforço**, é necessário muitas discussões com _**Domain Experts**_ para entender de fato o Modelo do sistema e todos os problemas à serem resolvidos. Junto a isolar as regras do domínio separando-as de outras partes da aplicação.
 - A **curva de aprendizado** é longa, existem muitos principios, padrões e processos que vão exigir estudo, dedicação e muito comprometimento.
 - DDD só faz sentido quando o objetivo é solucionar problemas de **negócio** complexos, não apenas CRUD.
+- O time tem de estar comprado com a prática de DDD.
