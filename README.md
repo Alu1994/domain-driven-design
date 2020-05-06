@@ -28,16 +28,6 @@ Domain Driven Design é um conjunto de principios e padrões que nos ajudam a re
 
 
 
-
-
-
-
-
-## Bounded Context
-É a limitação virtual dos subdomínios à serem desenvolvidos, é o foco no desenvolvimento de um subdomínio especifico. Ao identificar um Bonded Context será possível identificar *Entities*, *ValueObjects*, *Aggregates*, *Domain Events*, *Repository* e outros, bem como a interação entre eles.
-
-Tendo sua separação de forma bem clara, não haverá confusão entre outros subdomínios, evitando a sobreposição de atributos, funcionalidades e outros. E evitando também um grande sistema complexo que deverá gerenciar todo o negócio.
-
 ## Ubiquitous Language ou Linguagem onipresente
 É a criação de termos que normalmente serão usados ao discutir um subdomínio especifico, termos esses que vem dos problemas à serem solucionados, que são do négocio em si e não de questões técnicas, para termos uma comunicação clara entre todos os envolvidos no projeto.
 
@@ -49,4 +39,14 @@ Esses termos devem ser acordados com toda a equipe bem como com o cliente, para 
 ## Domain Experts
 São pessoas que conhecem de fato as necessidades à serem supridas, que conhecem os problemas, e nos auxiliam a entender esses mesmos problemas e trazer eles de forma limpa e coerente para o mundo do software.
 
+## Bounded Context
+É a limitação dos subdomínios à serem desenvolvidos, é o foco no desenvolvimento de um subdomínio especifico. Ao identificar um Bonded Context será possível identificar *Entities*, *ValueObjects*, *Aggregates*, *Domain Events*, *Repository* e outros, bem como a interação entre eles.
 
+Tendo sua separação de forma bem clara, não haverá confusão entre outros subdomínios, evitando a sobreposição de atributos, funcionalidades e outros. E evitando também um grande sistema complexo que deverá gerenciar todo o negócio.
+
+## Sub-Domain x Bounded Context
+
+A diferença entre subdominio e bounded context é que:
+- O Subdominio é como o problema a ser solucionado foi subdividido.
+- Bounded context é como esse mesmo problema foi sulucionado e subdividido em termos de software, tecnicamente falando.
+Seria sempre bom que os 2 fossem correspondentes, mas nem sempre isso é atingido. A ideia é que o bounded context seja criado para atender perfeitamente o subdominio.
