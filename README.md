@@ -50,3 +50,12 @@ A diferença entre subdominio e bounded context é que:
 - O Subdominio é como o problema a ser solucionado foi subdividido.
 - Bounded context é como esse mesmo problema foi sulucionado e subdividido em termos de software, tecnicamente falando.
 Seria sempre bom que os 2 fossem correspondentes, mas nem sempre isso é atingido. A ideia é que o bounded context seja criado para atender perfeitamente o subdominio.
+
+
+## Context Maps
+Como o nome diz, é o mapeamento dos contextos que devemos fazer para manter a devida organização dos projetos.
+
+Quando trabalhamos com *bounded contexts*, esbarramos por vezes em necessidades que são compartilhadas entre os projetos, como pedaços de uma mesma entidade(Cliente), o que normalmente é feito é criar um super projeto onde temos todos esses contextos juntos e dividindo os mesmos recursos e competindo entre si. 
+No DDD eles são separados e tem somente os recursos necessários para cada *bounded context*, e por exemplo, é feito uma consistencia eventual dos dados compartilhados.
+
+Um outro exemplo seria os *Cross Cutting Concerns*, esse tipo de necessidade no DDD é resolvido em um *layer* chamado *Shared Kernel* que é uma parte reservada para o compartilhamento entre vários *bounded contexts*.
