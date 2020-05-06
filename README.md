@@ -36,6 +36,8 @@ Domain Driven Design é um conjunto de principios e padrões que nos ajudam a re
 ## Bounded Context
 É a limitação virtual dos subdomínios à serem desenvolvidos, é o foco no desenvolvimento de um subdomínio especifico. Ao identificar um Bonded Context será possível identificar *Entities*, *ValueObjects*, *Aggregates*, *Domain Events*, *Repository* e outros, bem como a interação entre eles.
 
+Tendo sua separação de forma bem clara, não haverá confusão entre outros subdomínios, evitando a sobreposição de atributos, funcionalidades e outros.
+
 ## Ubiquitous Language ou Linguagem onipresente
 É a criação de termos que normalmente serão usados ao discutir um subdomínio especifico, termos esses que vem dos problemas à serem solucionados, que são do négocio em si e não de questões técnicas, para termos uma comunicação clara entre todos os envolvidos no projeto.
 
