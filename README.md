@@ -61,3 +61,7 @@ Quando trabalhamos com *bounded contexts*, esbarramos por vezes em necessidades 
 No DDD eles são separados e tem somente os recursos necessários para cada *bounded context*, e por exemplo, é feito uma consistencia eventual dos dados compartilhados.
 
 Um outro exemplo seria os *Cross Cutting Concerns*, esse tipo de necessidade no DDD é resolvido em um *layer* chamado *Shared Kernel* que é uma parte reservada para o compartilhamento entre vários *bounded contexts*.
+
+
+## Shared Kernel
+É uma parte do modelo compartilhada entre 2 ou mais times que concordam em não alterar-lo sem colaboração.
