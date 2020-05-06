@@ -41,5 +41,6 @@ Domain Driven Design é um conjunto de principios e padrões que nos ajudam a re
 
 ## Ubiquitous Language ou Linguagem onipresente
 É a criação de termos que normalmente serão usados ao discutir um subdomínio especifico, termos esses que vem dos problemas à serem solucionados, que são do négocio em si e não de questões técnicas, para termos uma comunicação clara entre todos os envolvidos no projeto.
-- Esses termos devem ser acordados com toda a equipe bem como com o cliente, para que não haja mal entendidos.
+
+Esses termos devem ser acordados com toda a equipe bem como com o cliente, para que não haja mal entendidos.
 
