@@ -46,3 +46,5 @@ Esses termos devem ser acordados com toda a equipe bem como com o cliente, para 
 
 ## Domain Experts
 São pessoas que conhecem de fato as necessidades à serem supridas, que conhecem os problemas, e nos auxiliam a entender esses mesmos problemas e trazer eles de forma limpa e coerente para o mundo do software.
+
+
