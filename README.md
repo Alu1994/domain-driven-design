@@ -55,7 +55,7 @@ Seria sempre bom que os 2 fossem correspondentes, mas nem sempre isso é atingid
 
 
 ## Context Maps
-Como o nome diz, é o mapeamento dos contextos que devemos fazer para manter a devida organização dos projetos.
+Como o nome diz, é o mapeamento dos contextos que devemos fazer para manter a devida organização dos projetos, e os relacionamentos entre si.
 
 Quando trabalhamos com *bounded contexts*, esbarramos por vezes em necessidades que são compartilhadas entre os projetos, como pedaços de uma mesma entidade(Cliente), o que normalmente é feito é criar um super projeto onde temos todos esses contextos juntos e dividindo os mesmos recursos e competindo entre si. 
 No DDD eles são separados e tem somente os recursos necessários para cada *bounded context*, e por exemplo, é feito uma consistencia eventual dos dados compartilhados.
