@@ -33,6 +33,8 @@ Domain Driven Design é um conjunto de principios e padrões que nos ajudam a re
 
 Esses termos devem ser acordados com toda a equipe bem como com o cliente, para que não haja mal entendidos.
 
+É claro que exige um esforço maior para decidir os termos e difundi-los, porém a vantagem é que, por exemplo, não haverá necessidade de tradução entre os termos do cliente e os termos do desenvolvedor.
+
 ## Model Driven Design
 É uma verificação intensa do problema, esse processo deve ser realizado em conjunto aos **Domains Experts**, para poder identificar o **Core Domain** e os subdomínios.
 
