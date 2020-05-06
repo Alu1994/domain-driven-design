@@ -45,4 +45,4 @@ Esses termos devem ser acordados com toda a equipe bem como com o cliente, para 
 É uma verificação intensa do problema, esse processo deve ser realizado em conjunto aos **Domains Experts**, para poder identificar o **Core Domain** e os subdomínios.
 
 ## Domain Experts
-São pessoas que conhecem de fato as necessidades à serem supridas, que conhecem os problemas, e nos auxiliam a entender esses mesmos problemas e trazer eles de forma limpa e coerente com essas necessidades para o mundo do software.
+São pessoas que conhecem de fato as necessidades à serem supridas, que conhecem os problemas, e nos auxiliam a entender esses mesmos problemas e trazer eles de forma limpa e coerente para o mundo do software.
