@@ -31,3 +31,10 @@ Segundo Eric Evans, as responsabilidades de uma entidade são a sua identidade e
 ### Entity & Equality Comparer
 Quando falamos sobre entidades, normalmente não faz muito sentido termos um comparador (Equals), pois comparar duas entidades é mais complexo do que comparar 2 _Value Objects_. Precisamos de muitas informações para de fato cravarmos que uma entidade se assemelha ou é de fato a mesma, e também se realmente essa pergunta faz sentido, será que precisamos realmente saber se 2 entidades são iguais ou se assemelham? Isso pode variar dependendo da situação, mas normalmente não faz muito sentido.
 
+## Relationships
+Normalmente quando definimos relacionamentos, pensamos de forma bidirecional, por exemplo:
+  - 1 Carro tem 1 Dono
+  - 1 Dono possui 1 Carro
+
+Não está errado pensar assim, mas quando implementamos essa regra no código, normalmente as coisas ficam um pouco mais complexas, fora que normalmente leva-nos a pensar que, um objeto dentro de um sistema não existe ou não faz sentido sem o outro, o que não é a verdade.
+
