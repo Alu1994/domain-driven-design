@@ -5,3 +5,9 @@ A camada de domínio é o coração do negócio dentro de um sistema, ela é res
 
 ## Modelos de Dominio _Anemico_ x Modelos de Dominio _Rico_
 
+### Dominio Anemico
+
+Um modelo de dominio anemico tem seu foco nos estados dos objetos, que vai contra as intenções do DDD.
+
+### Dominio Rico
+
