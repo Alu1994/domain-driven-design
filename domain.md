@@ -41,6 +41,10 @@ Não está errado pensar assim, mas quando implementamos essa regra no código, 
 ## Value Objects
 Ao contrario das _Entidades_, sua identidade é definida por seus valores, que metrificam, quantificam ou descrevem algo no domínio. Eles também devem ser imutaveis, seus comportamentos não podem ter efeitos colaterais e suas comparações devem ser feitas usando todos os seus valores.
 
+Uma maneira de identificar Value Objects é tentar agrupar os valores que se assemelham em um domínio, por exemplo um período:
+  - Data Inicio
+  - Data Fim
+
 ## Domain Services
 Quando uma operação é importante ao modelo, mas não pertence necessariamente a nenhuma _Entidade_ ou _Value Object_, um Serviço é normalmente apropriado para a tarefa. Mas é necessário verificar com calma, pois criando sempre um Domain Service, é possivel acabarmos tendo um _Modelo Anemico_.
 
