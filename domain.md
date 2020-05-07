@@ -23,3 +23,9 @@ Uma Entidade é algo que precisamos rastrear, localizar, recuperar e armazenar, 
 As propriedades que compõem uma entidade podem mudar portanto não podemos usar essas mesmas propriedades para identificar essa entidade, pora isso usamos seu ID.
 
 Em DDD normalmente os IDs são _Guids_, para facilitar testes e implementações, porém int's não ferem nenhum principio de DDD, apenas tornam as coisas um pouco mais dificeis.
+
+### Entity & SRP (Single Responsability Principle)
+
+É importante termos uma entidade que possua sim seus comportamentos, porém é importante levarmos em consideração a quantidade de responsabilidades e se todas fazem mesmo parte de uma determinada entidade.
+
+Segundo Eric Evans, as responsabilidades de uma entidade são a sua identidade e seu ciclo de vida. Mas mesmo nesses casos, quando sua regra fica muito complexa, talvez seja interessante delegar essas responsabilidades para serviços ou até mesmo _Value Objects_.
