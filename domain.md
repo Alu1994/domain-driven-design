@@ -20,3 +20,4 @@ No DDD temos 2 tipos de objetos, aqueles que são definidos por seus Valores, e 
 
 Uma Entidade é algo que precisamos rastrear, localizar, recuperar e armazenar, fazemos isso com um ID.
 
+As propriedades que compõem uma entidade podem mudar portanto não podemos usar essas mesmas propriedades para identificar essa entidade, pora isso usamos seu ID.
