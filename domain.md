@@ -29,3 +29,4 @@ Em DDD normalmente os IDs são _Guids_, para facilitar testes e implementações
 É importante termos uma entidade que possua sim seus comportamentos, porém é importante levarmos em consideração a quantidade de responsabilidades e se todas fazem mesmo parte de uma determinada entidade.
 
 Segundo Eric Evans, as responsabilidades de uma entidade são a sua identidade e seu ciclo de vida. Mas mesmo nesses casos, quando sua regra fica muito complexa, talvez seja interessante delegar essas responsabilidades para serviços ou até mesmo _Value Objects_.
+
