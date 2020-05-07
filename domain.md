@@ -30,3 +30,6 @@ Em DDD normalmente os IDs são _Guids_, para facilitar testes e implementações
 
 Segundo Eric Evans, as responsabilidades de uma entidade são a sua identidade e seu ciclo de vida. Mas mesmo nesses casos, quando sua regra fica muito complexa, talvez seja interessante delegar essas responsabilidades para serviços ou até mesmo _Value Objects_.
 
+### Equality Comparer
+
+Quando falamos sobre entidades, normalmente não faz muito sentido termos um comparador (Equals), pois comparar duas entidades é mais complexo do que comparar 2 _Value Objects_. Precisamos de muitas informações para de fato cravarmos que uma entidade se assemelha ou é de fato a mesma, e também se realmente essa pergunta faz sentido, será que precisamos realmente saber se 2 entidades são iguais ou se assemelham? Isso pode variar dependendo da situação, mas normalmente não faz muito sentido.
