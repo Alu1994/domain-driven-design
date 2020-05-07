@@ -9,5 +9,7 @@ A camada de domínio é o coração do negócio dentro de um sistema, ela é res
 
 Um modelo de dominio anemico tem seu foco nos estados dos objetos, que vai contra as intenções do DDD.
 
+Não existem problemas em ter um domínio anemico, principalmente se a intenção for fazer somente um sistema que possui _CRUDs_.
+
 ### Dominio Rico
 
