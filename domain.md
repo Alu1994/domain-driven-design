@@ -39,3 +39,4 @@ Normalmente quando definimos relacionamentos, pensamos de forma bidirecional, po
 Não está errado pensar assim, mas quando implementamos essa regra no código, normalmente as coisas ficam um pouco mais complexas apenas para satifazer um pensamento (YAGNI), fora que normalmente leva-nos a pensar que, um objeto dentro de um sistema não existe ou não faz sentido sem o outro, o que nem sempre é a verdade.
 
 ## Value Objects
+Ao contrario das _Entidades_, sua identidade é definida por seus valores, que metrificam, quantificam ou descrevem algo no domínio. Eles também devem ser imutaveis e suas comparações devem ser feitas usando todos os seus valores.
