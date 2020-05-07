@@ -15,3 +15,6 @@ Um dominio rico é a ideia de ter o controle do negócio, e não apenas o estado
 
 
 ## Entities
+
+No DDD temos 2 tipos de objetos, aqueles que são definidos por sua Identidade, e aqueles definidos por seus Valores.
+
