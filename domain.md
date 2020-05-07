@@ -36,5 +36,5 @@ Normalmente quando definimos relacionamentos, pensamos de forma bidirecional, po
   - 1 Carro tem 1 Dono
   - 1 Dono possui 1 Carro
 
-Não está errado pensar assim, mas quando implementamos essa regra no código, normalmente as coisas ficam um pouco mais complexas, fora que normalmente leva-nos a pensar que, um objeto dentro de um sistema não existe ou não faz sentido sem o outro, o que não é sempre a verdade.
+Não está errado pensar assim, mas quando implementamos essa regra no código, normalmente as coisas ficam um pouco mais complexas, fora que normalmente leva-nos a pensar que, um objeto dentro de um sistema não existe ou não faz sentido sem o outro, o que nem sempre é a verdade.
 
