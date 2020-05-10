@@ -21,8 +21,5 @@ Por isso, alterações feitas em um Aggregate devem seguir **_ACID_**:
 
 _"Um Aggregate é um cluster de objetos associados que tratamos como uma unidade com a finalidade de alterações de dados."_
 <p align="right">
-  <b>Eric Evans</b>
-</p>
-<p align="right">
-  Domain-Driven Design
+  <b>Eric Evans</b> - Domain-Driven Design
 </p>
