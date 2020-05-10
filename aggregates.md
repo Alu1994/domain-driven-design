@@ -27,5 +27,14 @@ _"Um Aggregate é um cluster de objetos associados que tratamos como uma unidade
 </p>
 
 ## Relacionamentos entre Aggregates
-É possível fazer relacionamentos entre Aggregates, porém é necessário que seja seja entre, Aggregate Roots e não entre ou com os objetos que fazem parte desse Aggregate.
+É possível fazer relacionamentos entre Aggregates, porém é necessário que seja seja entre Aggregate Roots, e não entre ou com os objetos que fazem parte dos Aggregates.
 
+### OK
+<p align="center">
+  <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Relationships_Between_Aggregates__OK.png" />
+</p>
+
+### NOT OK
+<p align="center">
+  <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Relationships_Between_Aggregates__NOK.png" />
+</p>
