@@ -19,6 +19,7 @@ Por isso, alterações feitas em um Aggregate devem seguir **_ACID_**:
   - Isolamento
   - Durabilidade
 
+
 _"Um Aggregate é um cluster de objetos associados que tratamos como uma unidade com a finalidade de alterações de dados."_
 <p align="right">
   <b>Eric Evans</b> - Domain-Driven Design
