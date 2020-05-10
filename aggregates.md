@@ -25,3 +25,7 @@ _"Um Aggregate é um cluster de objetos associados que tratamos como uma unidade
 <p align="right">
   <b>Eric Evans</b> - Domain-Driven Design
 </p>
+
+## Relacionamentos entre Aggregates
+É possível fazer relacionamentos entre Aggregates, porém é necessário que seja seja entre, Aggregate Roots e não entre ou com os objetos que fazem parte desse Aggregate.
+
