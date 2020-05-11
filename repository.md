@@ -9,6 +9,9 @@ Toda a regra de acesso à dados deve ficar na camada de repositório e não em q
 
 Repositórios provem uma abstração boa para as complexidades técnicas da persistencia dos dados.
 
-Auxilia na separação de responsabilidades, pois é uma camada que tem responsabilidade direta no acesso à dados, possibilitando que outras camadas cuidem daquilo que fazem sentido à elas, ajudando assim, por consequencia na manutenabilidade do código, bem como também em teste de código.
+O Repository auxilia na separação de responsabilidades, pois é uma camada que tem como atividade principal o acesso à dados, possibilitando que outras camadas cuidem daquilo que fazem sentido à elas, ajudando assim por consequencia, na manutenabilidade do código, bem como também em testes de código.
 
-Uma interface de repositório(IRepository<T>) traz o controle daquilo que de fato faz sentido ser exposto para as camadas de negócio e aplicação. Lembrando que nem todos os casos faz sentido utilizar uma interface com todas as operações basicas de um banco de dados.
+Uma interface de repositório(IRepository<T>) traz o controle daquilo que de fato faz sentido ser exposto para as camadas de negócio e aplicação. 
+
+Obs:
+  Lembrando que nem todos os casos faz sentido utilizar uma interface com todas as operações basicas de um banco de dados.
