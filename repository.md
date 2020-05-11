@@ -11,7 +11,7 @@ Em DDD os repositórios devem ser criados apenas para Aggregate Roots, eles não
 ### Prós
 - O Repository auxilia na separação de responsabilidades, pois é uma camada que tem como atividade principal o acesso à dados, possibilitando que outras camadas cuidem daquilo que fazem sentido à elas, ajudando assim por consequencia, na manutenabilidade do código, bem como em testes de código.
 
-- Repositórios provem uma abstração boa para as complexidades técnicas da persistencia dos dados.
+- Repositórios provem uma abstração boa para as complexidades técnicas da persistencia de dados.
 
 - Uma interface de repositório(IRepository<T>) traz o controle daquilo que de fato faz sentido ser exposto para as camadas de negócio e aplicação. 
   
