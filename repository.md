@@ -17,3 +17,8 @@ Em DDD os repositórios devem ser criados apenas para Aggregate Roots, eles não
   
 Obs:
   Lembrando que nem todos os casos faz sentido utilizar uma interface com todas as operações basicas de um banco de dados.
+  
+### Contras
+- Exige que todos do time estejam comprados com a ideia de introduzir mais uma camada ao projeto.
+
+- Exige que os integrantes do time saibam como deve ser implementado essa camada, o que pode e o que não pode ser feito nela.
