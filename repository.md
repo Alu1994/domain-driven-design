@@ -1,6 +1,6 @@
 # Repository
 
-## O que é Repository?
+## O que é um Repository?
 É um Design Pattern que nos auxilia a gerenciar o acesso à leitura, escrita e remoção de dados, independente do tipo de reposório que estejamos lidando. (banco de dados, arquivo, cache e etc.)
 
 Esses repositórios devem ser criados apenas para Aggregate Roots, eles não podem ser criados para simples entidades, pois o foco dos Repositórios no DDD são os Aggregate Roots.
