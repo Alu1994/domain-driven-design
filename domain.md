@@ -62,7 +62,7 @@ Ele é um padrão que serve para desacoplar comunicações internas do projeto, 
 ### Como identificar Domain Events?
   - Ex: **Quando** o cliente fechar uma compra, **então** ele deverá receber uma notificação via e-mail com os dados da compra.
 
-### Como criamos um Domain Event?
+### Dicas de como criar um Domain Event:
   - Cada evento é sua própria Classe.
   - É interessante saber quando o evento foi acionado. Podendo ter uma simples propriedade *TimeOccurred*.
   - Os campos do eventos devem ser inicializados em seu Construtor.
