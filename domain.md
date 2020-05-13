@@ -57,6 +57,7 @@ Ele é um padrão que serve para desacoplar comunicações internas do projeto, 
   - Domain Events podem ser usados ao comunicar para fora do domínio.
   - Domain Events fazem parte da Ubiquitous Language do projeto, pois Domain Experts sabem quais os eventos que devem ocorrer em cada cenário da aplicação.
   - Domain Events representam coisas que já aconteceram no sistema, sendo assim, eles devem ser imutáveis.
+  - Domain Events só devem ser usados caso realmente algum evento **externo** deva ser acionado dado uma regra de negócio. (Quando dizemos externo, pode ser um processamento que deva ser feito por simplesmente uma outra entidade no domínio.)
   
 ### Como identificar Domain Events?
   - Ex: **Quando** o cliente fechar uma compra, **então** ele deverá receber uma notificação via e-mail com os dados da compra.
