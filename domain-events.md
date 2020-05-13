@@ -13,5 +13,5 @@ Ele é um padrão que serve para desacoplar comunicações internas do projeto, 
   - É interessante saber quando o evento foi acionado. Podendo ter uma simples propriedade *TimeOccurred*.
   - Os campos do evento devem ser inicializados em seu Construtor.
   - Não podem ter comportamentos ou efeitos colaterais.
-  - Classes de Eventos devem sempre que possível ser leves, com somente as informações necessárias para sua execução ou possível re-execução.
+  - Classes de Eventos devem sempre que possível ser leves, somente com as informações necessárias para sua execução ou possível re-execução.
 
