@@ -58,4 +58,4 @@ Ele é um padrão que serve para desacoplar comunicações internas do projeto, 
   - Domain Events fazem parte da Ubiquitous Language do projeto, pois Domain Experts sabem quais os eventos que devem ocorrer em cada cenário da aplicação.
   
 ### Como identificar Domain Events
-  Ex: **Quando** o cliente fechar uma compra, **então** ele deverá receber uma notificação via e-mail com os dados da compra.
+  - Ex: **Quando** o cliente fechar uma compra, **então** ele deverá receber uma notificação via e-mail com os dados da compra.
