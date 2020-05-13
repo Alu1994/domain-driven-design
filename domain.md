@@ -52,3 +52,6 @@ Normalmente quando precisamos da colaboração de mais uma _Entidade/ValueObject
 
 Eles não podem ser uma parte natural de uma _Entidade/Value Object_, eles devem possuir uma interface e não podem conter estado, mas eventualmente podem ter efeitos colaterais.
 
+## Domain Events
+Ele é um padrão que serve para desacoplar comunicações internas do projeto, disponibilizando uma maneira de descrever as atividades ou mudanças de estado que podem ocorrer no sistema. Assim outras partes do domínio podem responder à esses eventos de uma forma fracamente acoplada.
+
