@@ -54,4 +54,4 @@ Eles não podem ser uma parte natural de uma _Entidade/Value Object_, eles devem
 
 ## Domain Events
 Ele é um padrão que serve para desacoplar comunicações internas do projeto, disponibilizando eventos para descrever as atividades ou mudanças de estado que podem ocorrer no sistema. Assim outras partes do domínio podem responder à esses eventos de uma forma fracamente acoplada, sem saber de onde esses eventos vieram, tão pouco seus invocadores saberem quais processos responderam à esses eventos.
-
+  - Domain Events podem ser usados ao comunicar para fora do domínio.
