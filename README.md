@@ -61,10 +61,11 @@ Um outro exemplo seria os *Cross Cutting Concerns*, esse tipo de necessidade no 
 ## Prós :) e Contras :( em usar DDD
 ### Prós
 - DDD nos ajuda a dividir um super problema em problemas menores(**Sub-Domain**) que facilita o entendimento bem como o seu processo de desenvolvimento, o que o torna também mais flexivel.
-- Torna a solução final mais próxima da visão de negócios do cliente. Entregando um caminho para problemas **complexos**.
+- Torna a solução final mais próxima da visão de negócios do cliente. Entregando um caminho estruturado para problemas **complexos**.
 - Normalmente o código é bem organizado e facilmente testavel.
 - A regra de negócio fica somente em um único lugar.
 - Mesmo não utilizando totalmente DDD, existem alguns padrões que podem beneficiar o desenvolvimento das nossas aplicações.
+- Quando há complexidade de negócio, DDD realmente simplifica a adição de novas funcionalidades ao projeto.
 
 ### Contras
 - Um dos pontos negativos do DDD é o **Tempo e Esforço**, é necessário muitas discussões com _**Domain Experts**_ para entender de fato o Modelo do sistema e todos os problemas à serem resolvidos. Junto a isolar as regras do domínio separando-as de outras partes da aplicação.
