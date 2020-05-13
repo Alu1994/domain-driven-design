@@ -15,4 +15,4 @@ Ele é um padrão que serve para desacoplar comunicações internas do projeto, 
   - Não podem ter comportamentos ou efeitos colaterais.
   - Classes de Eventos devem sempre que possível ser leves, somente com as informações necessárias para sua execução ou possível re-execução.
 
-### [Employing the Domain Model Pattern](https://docs.microsoft.com/en-us/archive/msdn-magazine/2009/brownfield/employing-the-domain-model-pattern#id0400046)
+### [Employing the Domain Model Pattern - By Udi Dahan](https://docs.microsoft.com/en-us/archive/msdn-magazine/2009/brownfield/employing-the-domain-model-pattern#id0400046)
