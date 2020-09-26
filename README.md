@@ -6,6 +6,7 @@ Domain Driven Design é um conjunto de principios e padrões que nos ajudam a re
 
 - ## [Domain](https://github.com/matsennin/domain-driven-design/blob/master/domain.md)
 - ## [Aggregates](https://github.com/matsennin/domain-driven-design/blob/master/aggregates.md)
+- ## [Domain Services](https://github.com/matsennin/domain-driven-design/blob/master/domain-services.md)
 - ## [Domain Events](https://github.com/matsennin/domain-driven-design/blob/master/domain-events.md)
 - ## [Repository](https://github.com/matsennin/domain-driven-design/blob/master/repository.md)
 - ## [Anti-corruption Layer](https://github.com/matsennin/domain-driven-design/blob/master/anti-corruption-layer.md)
