@@ -4,6 +4,8 @@
 
 Domain Driven Design é um conjunto de principios e padrões que nos ajudam a resolver problemas complexos de negócio em softwares bem escritos. Possibilita criar um código claro e testavel que represente um domínio de negócio.
 
+<p><img src="https://github.com/matsennin/domain-driven-design/blob/master/images/DDD_Diagram.png" /></p>
+
 - ## [Domain](https://github.com/matsennin/domain-driven-design/blob/master/domain.md)
 - ## [Aggregates](https://github.com/matsennin/domain-driven-design/blob/master/aggregates.md)
 - ## [Domain Services](https://github.com/matsennin/domain-driven-design/blob/master/domain-services.md)
