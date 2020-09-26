@@ -5,3 +5,4 @@ Normalmente quando precisamos da colaboração de mais uma _Entidade/ValueObject
 
 Eles não podem ser uma parte natural de uma _Entidade/Value Object_, eles devem possuir uma interface e não podem conter estado, mas eventualmente podem ter efeitos colaterais.
 
+<p><img src="https://github.com/matsennin/domain-driven-design/blob/master/images/DomainServices.png" /></p>
