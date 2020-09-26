@@ -8,7 +8,7 @@ A camada de domínio é o coração do negócio dentro de um sistema, ela é res
 ### Dominio Anemico
 Um modelo de dominio anemico tem seu foco nos estados dos objetos, que vai contra as intenções do DDD, nele modelos anemicos são considerados "Anti-Patterns".
 
-Vale dizer que, **não há problemas** em ter um domínio anemico, principalmente se o projeto for simples ou que seu tempo para desenvolvimento seja breve, como um sistema pequeno que possua _CRUDs_ simples.
+Vale dizer que, <span style="color:red;font-weight:bold;">**não há problemas**</span> em ter um domínio anemico, principalmente se o projeto for simples ou que seu tempo para desenvolvimento seja breve, como um sistema pequeno que possua _CRUDs_ simples.
 
 ### Dominio Rico
 Um dominio rico é a ideia de ter o controle do negócio, e não apenas o estado. Por vezes tiramos essas regras que pertencem ao Domínio e colocamos em serviços externos, enfraquecendo-o e tirando parte de sua responsabilidade.
