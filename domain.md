@@ -3,7 +3,7 @@
 ## O que é?
 A camada de domínio é o coração do negócio dentro de um sistema, ela é responsável por representar os conceitos do negócio, estado e suas regras. O estado que reflete a regra de negócio é controlada nessa camada, apesar dos detalhes técnicos de guardar esses mesmos dados estarem em uma camada de Repositório.
 
-## Dominio _Anemico_ x Modelos de Dominio _Rico_
+## Dominio _Anemico_ x Dominio _Rico_
 
 ### Dominio Anemico
 Um modelo de dominio anemico tem seu foco nos estados dos objetos, que vai contra as intenções do DDD, nele modelos anemicos são considerados "Anti-Patterns".
